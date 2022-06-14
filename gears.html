@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <title>RGX 11Z PRO</title>
+    <style>  
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+        #main{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+     body {
+         margin: 0;
+         padding: 0;
+         border: none;
+            background-color: black;
+            color: white;
+        }
+    #logo {
+      text-align: center;
+      margin-top: 20px;
+      border: 0px solid red;
+    }
+    #logo:hover{
+        background-color: crimson;
+    }
+    nav {
+        text-align: center;
+        height: 230px;
+        border-bottom: 2px solid green;
+        border-top: 2px solid green;
+        background-color: #111;
+    }
+    nav li{   
+        padding: 9%;
+        font-size: 25px;
+        font-family: 'Black Han Sans';
+        display: inline;
+        color: rgb(150, 147, 147);
+
+    }
+    nav li:hover{
+        color: white;
+    }
+    section {
+        margin-top: 100px;
+        width: 95%;
+        height: 840px;
+        float: left;
+        border: 0px solid #cccccc;
+        text-align: center;
+        background-color: black;
+        
+    }
+    aside {
+        width: 95%;
+        height: 450px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 1px solid #cccccc;
+    }
+    aside li {
+        text-align: center;
+        list-style-type: none;
+    
+    }
+    footer {
+        border: 0px solid #cccccc;
+        width: 60%;
+        height: 290px;
+        margin-left: 19%;
+    }
+    .clear {
+        clear: both;
+    }
+    #address {
+        float: left;
+        margin: 30px;
+        padding-left: 10px;
+    }
+    #customer {
+        float: right;
+        margin: 30px;
+        padding-right: 10px;
+    }
+    #page{
+        width: 1500px;
+        margin: auto;
+        border: 1px solid #cccccc;
+    }
+    .green{
+        color: green;
+    }
+    a { 
+        text-decoration: none; color: rgb(150, 147, 147);
+    }   
+    a:hover { 
+        text-decoration: none; color: white;
+    }
+    iframe{
+        margin: 0;
+        padding: 0;
+        border: 0px;
+    }
+
+</style>
+</head>
+<body>
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="logo.png"></a>
+            </div>
+            <ul>
+                <li><a href="gears.html">제품</a></li>
+                <li><a href="story.html">스토리</a></li>
+                <li><a href="store.html">스토어</a></li>
+                <li><a href="support.html">지원</a></li>   
+            </ul>
+        </nav>
+    <section>
+        <iframe src="gearsif.html" name="left" width="300 " height="700" frameborder="1">
+
+        </iframe>
+        <iframe src="mouse.html" name="right" width="60%" height="700" frameborder="0">
+    
+        </iframe>
+    </section>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+        <div id="address">
+        회사명 <p class="green">RGX 11Z PRO</p>
+        </div>
+        <div id="customer">
+            고객센터: 1588-1234<br><br>
+            <img src="facebook.png" width="30px">
+            <img src="instagram.png" width="30px">
+        </div>
+    </footer>
+</body>
+</html>
